@@ -10,9 +10,9 @@ public class PagoConsumoEnergia {
         double kilowatts = scanner.nextDouble();
 
         // Calcular pago
-        double pago = kilowatts * PRECIO_POR_KW;
+        double total = kilowatts * PRECIO_POR_KW;
 
         // Mostrar resultado
-        System.out.println("El pago por el consumo de energía es: " + pago + " dólares.");
+        System.out.println("El pago por el consumo de energía es: " + total + " dólares.");
     }
 }
