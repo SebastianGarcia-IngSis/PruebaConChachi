@@ -13,6 +13,6 @@ public class PagoConsumoEnergia {
         double total = kilowatts * PRECIO_POR_KW;
 
         // Mostrar resultado
-        System.out.println("El pago por el consumo de energía es: " + total + " dólares.");
+        System.out.println("El pago por el consumo de energía es: " + total + " quetzales.");
     }
 }
